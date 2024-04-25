@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="task1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="full-page">
+      <div class="text-preview">
+        <p class="first-text">
+          Learn to code by <br> watching others 
+        </p>
+  
+        <p class="second-text">
+          See how experienced developers solve problems in real-time.<br> 
+          Watching scripted tutorials is great, but understanding how <br> developers think is invaluable. 
+        </p>
+      </div>
+
+      <div class="form-page">
+        <button class="trial-button">
+        <p>
+          <b>Try it free 7 days</b> then $20/mo. thereafter
+        </p>
+        </button> <br>
+
+        <form class="form-input" id="form-input" action="#" onsubmit="validateform()">
+          <div class="error">
+            <input class="firstname" id="firstname" type="text" placeholder="Jonathan" onkeydown="removeErrorMessage1()"> 
+            <svg class="svg" id="svg1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Group 11">
+              <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
+              <rect id="Rectangle" x="11" y="6" width="2" height="9" rx="1" fill="white"/>
+              <rect id="Rectangle Copy 2" x="11" y="17" width="2" height="2" rx="1" fill="white"/>
+              </g>
+            </svg>
+
+          </div>
+          <span class="error-message" id="errormessage1">
+          </span> <br>
+
+          <div class="error">
+            <input class="lastname" id="lastname" type="text" placeholder="Last Name" onkeydown="removeErrorMessage2()">
+            <svg class="svg" id="svg2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Group 11">
+              <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
+              <rect id="Rectangle" x="11" y="6" width="2" height="9" rx="1" fill="white"/>
+              <rect id="Rectangle Copy 2" x="11" y="17" width="2" height="2" rx="1" fill="white"/>
+              </g>
+            </svg> 
+          </div>
+           <span class="error-message" id="errormessage2">
+           </span> <br>
+
+          <div class="error">
+            <input class="email" id="email" type="email" placeholder="Email Address" onkeydown="removeErrorMessage3()"> 
+            <svg class="svg" id="svg3" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Group 11">
+              <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
+              <rect id="Rectangle" x="11" y="6" width="2" height="9" rx="1" fill="white"/>
+              <rect id="Rectangle Copy 2" x="11" y="17" width="2" height="2" rx="1" fill="white"/>
+              </g>
+            </svg> 
+          </div>
+          <span class="error-message" id="errormessage3"> </span> <br>
+        
+          <div class="error">
+            <input class="password" id="password" type="password" placeholder="Password" onkeydown="removeErrorMessage4()"> 
+            <svg class="svg" id="svg4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Group 11">
+              <circle id="Oval" cx="12" cy="12" r="12" fill="#FF7979"/>
+              <rect id="Rectangle" x="11" y="6" width="2" height="9" rx="1" fill="white"/>
+              <rect id="Rectangle Copy 2" x="11" y="17" width="2" height="2" rx="1" fill="white"/>
+              </g>
+            </svg> 
+          </div>
+          <span class="error-message" id="errormessage4">
+          </span> <br>
+
+          <button class="claim-button">
+            <P class="button-text">
+              CLAIM YOUR FREE TRIAL
+            </P>
+          </button>
+          <p class="lastp">
+            By clicking the button, you are agreeing to our <span class="ts">Terms and Services</span>
+          </p>
+        </form>
+       </div>
+    </div>
+    <script src="task1.js"></script>
+  </body>
+</html>
