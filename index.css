@@ -194,7 +194,6 @@ body {
   font-weight: 500;
   line-height: 16.5px; 
   color: rgba(255, 121, 121, 1);
-  display:;
   justify-content: end;
   margin-right: 4.09em;
   float: right;
@@ -507,11 +506,6 @@ body {
     margin-right: 60px;
     margin-left: 20px;
   }  
-    
-  .form-input {
-    
-  
-  }
   
 }
 
